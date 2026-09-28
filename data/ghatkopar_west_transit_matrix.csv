@@ -1,0 +1,9 @@
+corridor_node,destination,mode,distance_km,travel_time_mins,peak_frequency_mins,source_benchmark
+Emperia LBS 21,Upcoming Metro Line 4 Station,Walking,0.22,2.8,4,MMRDA Metro Masterplan
+Emperia LBS 21,Ghatkopar Metro Line 1,Walking/Auto,0.65,5.0,3,Mumbai Metro One
+Emperia LBS 21,Ghatkopar Railway Station,Auto/Walk,0.70,6.0,3,Central Railway
+Emperia LBS 21,Bandra Kurla Complex (BKC),SCLR / Elevated Corridor,6.80,12.0,Continuous,MMRDA Transit Audit
+Emperia LBS 21,Chhatrapati Shivaji Maharaj Airport (BOM),SCLR / Western Express,8.50,18.0,Continuous,Airport Access Metric
+Emperia LBS 21,Eastern Freeway (South Mumbai),Elevated Link,4.20,10.0,Continuous,Traffic Analysis 2026
+Emperia LBS 21,SEEPZ / MIDC Andheri,Metro Line 1,9.40,16.0,3,Mumbai Metro One
+Emperia LBS 21,Powai Hiranandani IT Corridor,JVLR / LBS Marg,4.80,14.0,Continuous,LBS Traffic Study

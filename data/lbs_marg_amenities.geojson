@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "name": "Central Mumbai Ghatkopar West LBS Marg Spatial Infrastructure",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emperia LBS 21",
+        "category": "Residential Luxury Redevelopment",
+        "developer": "Dhiraj Manjeri Group",
+        "maharera_id": "P51800077334",
+        "address": "Lal Bahadur Shastri Marg, opp Zynova Shalby Hospital, Lal Bahadur Shastri Society, Ghatkopar West, Mumbai, Maharashtra 400086",
+        "website": "https://emperialbs21.co.in/",
+        "research_url": "https://emperialbs21.co.in/blog/",
+        "nri_guide_url": "https://emperialbs21.co.in/blog/nri-real-estate-investment-mumbai-guide.html",
+        "typologies": ["2 BHK", "3 BHK", "4 BHK Jodi"],
+        "carpet_efficiency": "72%",
+        "starting_price_inr": "1.45 Cr"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.907667, 19.090806] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zynova Shalby Hospital",
+        "category": "Tertiary Healthcare Hospital",
+        "specialties": ["Joint Replacement", "Cardiac Sciences", "Critical Care", "Oncology"],
+        "beds": 150,
+        "address": "LBS Marg, Ghatkopar West, Mumbai 400086"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.908012, 19.091054] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarvodaya Multispecialty Hospital",
+        "category": "Super Specialty Hospital",
+        "specialties": ["Cardiology", "Neurology", "Emergency Trauma"],
+        "beds": 350,
+        "address": "Lal Bahadur Shastri Marg, Ghatkopar West, Mumbai 400086"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.906541, 19.088921] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ghatkopar Metro Station (Line 1)",
+        "category": "Transit Interchange",
+        "interchange_with": "Central Railway Suburban Network",
+        "daily_footfall": 420000
+      },
+      "geometry": { "type": "Point", "coordinates": [72.908333, 19.086111] }
+    }
+  ]
+}

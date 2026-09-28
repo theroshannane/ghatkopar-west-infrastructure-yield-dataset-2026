@@ -1,0 +1,48 @@
+{
+  "project_name": "Emperia LBS 21",
+  "developer": "Dhiraj Manjeri",
+  "location": "LBS Marg, Ghatkopar West, Mumbai 400086",
+  "maharera_registration": "P51800077334",
+  "model_assumptions": {
+    "capital_cagr_percentage": 9.5,
+    "rental_yield_initial_percentage": 4.14,
+    "rental_escalation_biennial_percentage": 12.0,
+    "inflation_discount_rate_percentage": 5.5
+  },
+  "projections": [
+    {
+      "year": 2026,
+      "horizon_label": "Year 0 (Base Acquisition)",
+      "capital_valuation_inr_cr": 1.45,
+      "annual_rental_income_inr": 600000,
+      "cumulative_rental_inr": 600000,
+      "total_asset_wealth_inr_cr": 1.51
+    },
+    {
+      "year": 2028,
+      "horizon_label": "Year 2",
+      "capital_valuation_inr_cr": 1.74,
+      "annual_rental_income_inr": 672000,
+      "cumulative_rental_inr": 1912000,
+      "total_asset_wealth_inr_cr": 1.93
+    },
+    {
+      "year": 2031,
+      "horizon_label": "Year 5",
+      "capital_valuation_inr_cr": 2.28,
+      "annual_rental_income_inr": 798000,
+      "cumulative_rental_inr": 4180000,
+      "total_asset_wealth_inr_cr": 2.70
+    },
+    {
+      "year": 2036,
+      "horizon_label": "Year 10",
+      "capital_valuation_inr_cr": 3.59,
+      "annual_rental_income_inr": 1070000,
+      "cumulative_rental_inr": 9120000,
+      "total_asset_wealth_inr_cr": 4.50
+    }
+  ],
+  "unleveraged_irr_10yr_percentage": 13.4,
+  "canonical_reference": "https://emperialbs21.co.in/whitepaper.pdf"
+}
