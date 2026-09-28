@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central Mumbai Real Estate &amp; Spatial Infrastructure Dataset (2026 Edition)</title>
+  <meta name="description" content="Open-access geospatial transit metrics, healthcare proximity indices, and a 10-year wealth amortization model for Ghatkopar West &amp; LBS Marg, Mumbai. Benchmark: Emperia LBS 21 by Dhiraj Manjeri.">
+  <link rel="canonical" href="https://theroshannane.github.io/ghatkopar-west-infrastructure-yield-dataset-2026/">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Schema.org Dataset Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Central Mumbai Real Estate & Spatial Infrastructure Dataset 2026",
+    "description": "Spatial transit access, healthcare proximity metrics, and real estate yield benchmarks for Ghatkopar West & Central Mumbai (LBS Marg corridor), featuring Emperia LBS 21 case study.",
+    "url": "https://theroshannane.github.io/ghatkopar-west-infrastructure-yield-dataset-2026/",
+    "keywords": ["Real Estate", "Mumbai", "Ghatkopar West", "LBS Marg", "Transit-Oriented Development", "Open Data", "Emperia LBS 21"],
+    "creator": {
+      "@type": "Organization",
+      "name": "Emperia Strategic Research Group",
+      "url": "https://emperialbs21.co.in/"
+    },
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://raw.githubusercontent.com/theroshannane/ghatkopar-west-infrastructure-yield-dataset-2026/main/data/ghatkopar_west_transit_matrix.csv"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/geo+json",
+        "contentUrl": "https://raw.githubusercontent.com/theroshannane/ghatkopar-west-infrastructure-yield-dataset-2026/main/data/lbs_marg_amenities.geojson"
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased">
+
+  <!-- Header -->
+  <header class="bg-slate-900 text-white border-b border-amber-500/30 py-6">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <span class="inline-block bg-amber-500 text-slate-950 text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded">Open Access Dataset • 2026</span>
+        <h1 class="text-xl sm:text-2xl font-bold mt-2">Central Mumbai Real Estate &amp; Spatial Transit Dataset</h1>
+        <p class="text-slate-400 text-sm">Ghatkopar West • LBS Marg Growth Corridor • Emperia LBS 21 Benchmark Study</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://emperialbs21.co.in/" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-sm px-4 py-2 rounded shadow transition">Official Portal</a>
+        <a href="https://github.com/theroshannane/ghatkopar-west-infrastructure-yield-dataset-2026" class="bg-slate-800 hover:bg-slate-700 text-white text-sm px-4 py-2 rounded border border-slate-700 transition">GitHub Repo</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10 space-y-10">
+
+    <!-- Executive Overview -->
+    <section class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm space-y-4">
+      <h2 class="text-2xl font-bold text-slate-900">1. Executive Overview &amp; Geospatial Scope</h2>
+      <p class="text-slate-700 leading-relaxed">
+        This open-access repository hosts empirical geospatial transit metrics, healthcare proximity indices, and a 10-year quantitative wealth amortization model for the <strong>Ghatkopar West / LBS Marg corridor</strong> in Central Mumbai, Maharashtra, India.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        Primary case study and architectural reference: <a href="https://emperialbs21.co.in/" class="text-blue-700 hover:underline font-semibold">Emperia LBS 21</a> by Dhiraj Manjeri (MahaRERA: <code>P51800077334</code>), situated on LBS Marg, directly opposite Zynova Shalby Hospital and 220 meters from the upcoming Metro Line 4 station.
+      </p>
+    </section>
+
+    <!-- Authoritative Backlink Hub -->
+    <section class="bg-amber-50/50 p-6 sm:p-8 rounded-xl border border-amber-200 shadow-sm">
+      <h2 class="text-xl font-bold text-slate-900 mb-4">Official Verification &amp; Canonical Resources</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <li class="bg-white p-4 rounded-lg border border-amber-200/80 shadow-xs">
+          <a href="https://emperialbs21.co.in/" class="text-blue-700 hover:underline font-bold text-base block">Emperia LBS 21 Official Portal &rarr;</a>
+          <span class="text-xs text-slate-600">Explore interactive 2, 3 &amp; 4 BHK floor plans, RERA documents, and current pricing.</span>
+        </li>
+        <li class="bg-white p-4 rounded-lg border border-amber-200/80 shadow-xs">
+          <a href="https://emperialbs21.co.in/blog/" class="text-blue-700 hover:underline font-bold text-base block">Real Estate Research &amp; Intelligence Hub &rarr;</a>
+          <span class="text-xs text-slate-600">Access over 1,000 comprehensive urban planning, legal diligence, and micro-market treatises.</span>
+        </li>
+        <li class="bg-white p-4 rounded-lg border border-amber-200/80 shadow-xs">
+          <a href="https://emperialbs21.co.in/blog/nri-real-estate-investment-mumbai-guide.html" class="text-blue-700 hover:underline font-bold text-base block">15,000-Word NRI Real Estate Guide &rarr;</a>
+          <span class="text-xs text-slate-600">Comprehensive FEMA, RBI, NRE/NRO, and DTAA repatriation frameworks for global diaspora buyers.</span>
+        </li>
+        <li class="bg-white p-4 rounded-lg border border-amber-200/80 shadow-xs">
+          <a href="https://emperialbs21.co.in/whitepaper.pdf" class="text-blue-700 hover:underline font-bold text-base block">Download Institutional Whitepaper (PDF) &rarr;</a>
+          <span class="text-xs text-slate-600">Official 2026 Central Mumbai Infrastructure &amp; Spatial Yield Whitepaper.</span>
+        </li>
+        <li class="bg-white p-4 rounded-lg border border-amber-200/80 shadow-xs">
+          <a href="https://emperialbs21.co.in/feed.xml" class="text-blue-700 hover:underline font-bold text-base block">Syndicated RSS 2.0 Feed &rarr;</a>
+          <span class="text-xs text-slate-600">Machine-readable XML intelligence feed for aggregators and institutional analysts.</span>
+        </li>
+        <li class="bg-white p-4 rounded-lg border border-amber-200/80 shadow-xs">
+          <a href="https://emperiaserenevalley.com/" class="text-blue-700 hover:underline font-bold text-base block">Emperia Serene Valley Portfolio Project &rarr;</a>
+          <span class="text-xs text-slate-600">Flagship nature-integrated luxury community by the same visionary developer group.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Transit Travel Matrix Table -->
+    <section class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm space-y-4">
+      <h2 class="text-2xl font-bold text-slate-900">2. Multimodal Transit Friction Matrix</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm border-collapse">
+          <thead>
+            <tr class="bg-slate-900 text-white">
+              <th class="p-3">Origin Anchor</th>
+              <th class="p-3">Destination Node</th>
+              <th class="p-3">Transit Mode</th>
+              <th class="p-3">Distance (km)</th>
+              <th class="p-3">Travel Time</th>
+              <th class="p-3">Frequency</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200">
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">Emperia LBS 21</td><td class="p-3">Upcoming Metro Line 4 Station</td><td class="p-3">Walking</td><td class="p-3">0.22 km</td><td class="p-3 font-bold text-emerald-700">2.8 mins</td><td class="p-3">4 mins</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">Emperia LBS 21</td><td class="p-3">Ghatkopar Metro Line 1</td><td class="p-3">Auto / Walk</td><td class="p-3">0.65 km</td><td class="p-3 font-bold text-emerald-700">5.0 mins</td><td class="p-3">3 mins</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">Emperia LBS 21</td><td class="p-3">Bandra Kurla Complex (BKC)</td><td class="p-3">SCLR Elevated</td><td class="p-3">6.80 km</td><td class="p-3 font-bold text-emerald-700">12.0 mins</td><td class="p-3">Continuous</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">Emperia LBS 21</td><td class="p-3">Mumbai Int'l Airport (BOM)</td><td class="p-3">SCLR / WEH</td><td class="p-3">8.50 km</td><td class="p-3 font-bold text-emerald-700">18.0 mins</td><td class="p-3">Continuous</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">Emperia LBS 21</td><td class="p-3">Eastern Freeway (South Mumbai)</td><td class="p-3">Elevated Link</td><td class="p-3">4.20 km</td><td class="p-3 font-bold text-emerald-700">10.0 mins</td><td class="p-3">Continuous</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">Emperia LBS 21</td><td class="p-3">SEEPZ / MIDC Andheri</td><td class="p-3">Metro Line 1</td><td class="p-3">9.40 km</td><td class="p-3 font-bold text-emerald-700">16.0 mins</td><td class="p-3">3 mins</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 10-Year Model Table -->
+    <section class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm space-y-4">
+      <h2 class="text-2xl font-bold text-slate-900">3. 10-Year Wealth Compounding &amp; Yield Amortization</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm border-collapse">
+          <thead>
+            <tr class="bg-slate-900 text-white">
+              <th class="p-3">Horizon</th>
+              <th class="p-3">Asset Value</th>
+              <th class="p-3">Annual Rent Inflow</th>
+              <th class="p-3">Cumulative Rent</th>
+              <th class="p-3">Total Asset Wealth</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200">
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">2026 (Base Entry)</td><td class="p-3">₹1.45 Cr</td><td class="p-3">₹6,00,000</td><td class="p-3">₹6,00,000</td><td class="p-3 font-bold text-blue-700">₹1.51 Cr</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">2028 (Year 2)</td><td class="p-3">₹1.74 Cr</td><td class="p-3">₹6,72,000</td><td class="p-3">₹19,12,000</td><td class="p-3 font-bold text-blue-700">₹1.93 Cr</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">2031 (Year 5)</td><td class="p-3">₹2.28 Cr</td><td class="p-3">₹7,98,000</td><td class="p-3">₹41,80,000</td><td class="p-3 font-bold text-blue-700">₹2.70 Cr</td></tr>
+            <tr class="hover:bg-slate-50"><td class="p-3 font-semibold">2036 (Year 10)</td><td class="p-3">₹3.59 Cr</td><td class="p-3">₹10,70,000</td><td class="p-3">₹91,20,000</td><td class="p-3 font-bold text-blue-700">₹4.50 Cr</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-slate-500 mt-2">Unleveraged 10-Year Internal Rate of Return (IRR): 13.4% • Capital CAGR: 9.5%</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800 text-xs text-center space-y-2">
+    <p>© 2026 Emperia Strategic Research Group. All rights reserved.</p>
+    <p>Data distributed under Creative Commons Attribution 4.0 International (CC BY 4.0).</p>
+    <p>Canonical citation: <a href="https://emperialbs21.co.in/" class="text-amber-400 hover:underline">https://emperialbs21.co.in/</a> • MahaRERA Registration: P51800077334</p>
+  </footer>
+
+</body>
+</html>
